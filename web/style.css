@@ -1,0 +1,81 @@
+
+
+body {
+	background: #f3e0e2;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+     
+	
+}
+button {     
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 80px;
+	height: 80%;
+	text-align: center;
+                     margin-top: 20%;
+                        box-shadow: 5px 5px 5px 5px coral;
+}
+
+input[type=text] ,input[type=password]{
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    margin-left: 20px;
+  }
+ select[name=companies] ,select[name=yrs],select[name=result]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    margin-left: 20px;
+  }
+  
+  hr{
+      width:500px;
+      height: 2px;
+      margin-left: 30px;
+      margin-right: -10px;
+   background-color: black; 
+    
+     
+  }
+ 
+ div[class=set]
+ {
+ font-family: Fantasy;
+text-align: center;
+margin-top: 15%;
+
+ }
